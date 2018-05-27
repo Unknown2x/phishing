@@ -1,0 +1,9 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+cd $HOME
+
+echo -e "\033[1m \e[32m Startihg WeeMan Please Wait"
+
+clear
+
+cd $HOME/.phish/weeman && chmod +x * && ./weeman.py
